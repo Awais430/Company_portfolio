@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+  #menue-btn {
+    display: inline-block;
+  }
+
+  .header .search-form {
+    width: 90%;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 110%;
+    right: -110%;
+    width: 14rem;
+    box-shadow: var(--box-shadow);
+    border-radius: 0.5rem;
+    background: #fff;
+  }
+
+  .navbar.active {
+    display: block;
+    right: 2rem;
+    transition: 0.4s linear;
+  }
+
+  .navbar a {
+    font-size: 1rem;
+    margin: 1.5rem 1rem;
+    display: block;
+  }
+}
+.navbar {
+  display: none;
+}
